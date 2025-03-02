@@ -18,7 +18,7 @@ function M.draw()
     Canvas.use()
     love.graphics.clear()
 
-    love.graphics.printf("hello world", 0, GFX_HEIGHT / 2, GFX_WIDTH, "center")
+    love.graphics.printf("hello world " .. APP_IDENTITY, 0, GFX_HEIGHT / 2, GFX_WIDTH, "center")
 
 
     Canvas.present()
