@@ -1,0 +1,6 @@
+build
+tmp
+
+*.love
+*.zip
+todo.txt
